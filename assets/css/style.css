@@ -1,0 +1,120 @@
+.container {
+    margin: 0 auto;
+    display: flex;
+    max-width: 1198px;
+    /* margin-top: 40px; */
+}
+.bgblack {
+    background-color: black;
+}
+header {
+    position: relative;
+    /* left: 0;
+    right: 0; */ 
+}
+.logo-img {
+    max-height: 34px;
+}
+
+/* conteúdo */
+.
+.area-content {
+    height: 100vh;
+}
+.area-content-iten {
+    display: flex;
+}
+.content-itens {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.content-itens-title {
+    font-family: 'Work Sans',sans-serif;
+    font-weight: bolder;
+    text-transform: uppercase; 
+    font-size: 42px;    
+}
+
+.content-itens-desc{
+    font-family: 'Work Sans',sans-serif;
+    /* font-size: 17px; */
+    font-size: 21px
+}
+.content-itens-title, .content-itens-desc {
+    color: white;
+    line-height: 1.6;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.content-itens-button {
+    font-family: 'inherit';
+    font-weight: bold;
+
+}
+.content-itens-button {
+    font-family: inherit,Arial, Helvetica, sans-serif;
+    background-color: #04F575;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 17px 24px;
+    border: 3px solid rgba(50,199,110,0);;
+}
+
+/* REPRESENTANTE */
+.area-representant{
+    padding: 70px 0;
+}
+.rp-img {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.rp-img img{ 
+    height: 400px;
+    /* width: 500px; */
+} 
+.representant-itens {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.representant-itens-title {
+    color: #8CD898;
+    font-size:17px;
+    font-style:normal;
+    font-weight:bold;
+    text-transform:capitalize
+}
+.representant-itens-title2 {
+    font-weight: bolder;
+    font-size: 32px;
+}
+.representant-itens-desc {
+    font-family: 'Work Sans',sans-serif;
+    color: #4b4f58;
+    font-size: 17px;
+}
+
+/* Módulos */
+.modulo-area {
+    display: flex;
+    text-align: center;
+}
+.area-itens-img img{
+    width: 360px;
+    height: 270px;
+}
+.area-itens-title {
+    font-family: 'Work Sans',sans-serif;
+    font-size: 28px;
+    color: #303030;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+.area-itens-desc {
+    color: #4b4f58;
+    font-weight: 17px;
+    font-family: 'Work Sans',sans-serif;
+}
