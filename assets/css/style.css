@@ -72,26 +72,32 @@ header {
     padding: 17px 24px;
     border: 3px solid rgba(50,199,110,0);
 }
-
-/* REPRESENTANTE */
-.area-representant{
-    padding: 70px 0;
-}
-.rp-img {
-    padding-left: 30px;
-    padding-right: 30px;
-}
-.rp-img img{ 
-    height: 400px;
-    /* width: 500px; */
-} 
-.representant-itens {
-    text-align: center;
+/* REPRESENTANT FIX */  
+.widget-representant {
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
 }
+.widget-representant-item:nth-child(1){
+    /* max-height: 650px;
+    max-width: 780px; */
+    flex: 1;
+}
+.widget-representant-item:nth-child(2){
+    flex: 1;
+}
+.representant-itens-area {
+    display: flex;
+}
+.widget-representant-item img {
+    width: 100%;
+}
+.widget-representant-item-area{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-evenly;
 
+}
+ 
 .representant-itens-title {
     color: #8CD898;
     font-size:17px;
@@ -113,6 +119,7 @@ header {
 .modulo-area {
     display: flex;
     text-align: center;
+    flex-wrap: wrap;
 }
 .area-itens-img img{
     width: 360px;
