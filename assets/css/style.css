@@ -161,9 +161,16 @@ header {
     flex-direction: column;
     justify-content: space-evenly;
 }
+.about-course-itens:nth-child(1){
+    flex: 1;
+}
+.about-course-itens:nth-child(2){
+    flex: 3;
+    max-height: 650px;
+    max-width: 780px;
+}
 .about-course-itens img {
-    height: 545.19px;
-    width: 523.58px;
+    width: 100%;
 }
 .about-couse-itens-btn a {
     padding: 17px 24px;
