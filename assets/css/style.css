@@ -75,18 +75,22 @@ header {
 /* REPRESENTANT FIX */  
 .widget-representant {
     display: flex;
+    margin: 68px 0;
 }
 .widget-representant-item:nth-child(1){
     /* max-height: 650px;
     max-width: 780px; */
     flex: 1;
+    padding-right: 20px;
 }
 .widget-representant-item:nth-child(2){
     flex: 1;
+    text-align: center;
 }
 .representant-itens-area {
     display: flex;
 }
+
 .widget-representant-item img {
     width: 100%;
 }
@@ -120,6 +124,10 @@ header {
     display: flex;
     text-align: center;
     flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+.modulo-area-itens {
+    flex: 1;
 }
 .area-itens-img img{
     width: 360px;
