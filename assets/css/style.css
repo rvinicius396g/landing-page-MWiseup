@@ -31,15 +31,21 @@ header {
 
 /* conteúdo */ 
 .area-content {
-    height: 100vh;
-}
-.area-content-iten {
     display: flex;
+    /* height: 100vh; */
 }
+.area-content-iten:nth-child(1) {
+    /* flex: 1; */
+    display: flex;
+    
+}
+.area-content-iten:nth-child(2){
+    /* flex: 2; */
+} 
 .content-itens {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content:space-around;
 }
 .content-itens-title {
     font-family: 'Work Sans',sans-serif;
